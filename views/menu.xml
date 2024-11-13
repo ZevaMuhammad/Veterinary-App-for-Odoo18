@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Root Menu untuk Veterinary -->
+    <menuitem 
+        id="veterinary_root_menu" 
+        name="Veterinary" 
+        web_icon="veterinary,static/description/icon.png" 
+        sequence="10"/>
+
+    <!-- Submenu akan ditambahkan di bawahnya -->
+</odoo>

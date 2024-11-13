@@ -1,0 +1,18 @@
+<odoo>
+    <!-- Inherit hr.employee form view -->
+    <record id="veterinary_hr_employee_form_view" model="ir.ui.view">
+        <field name="name">hr.employee.veterinary.form</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Veterinary Details" name="veterinary_details">
+                    <group>
+                        <field name="is_veterinary_doctor"/>
+                        <field name="veterinary_specialization"/>
+                    </group>
+                </page>
+            </notebook>
+        </field>
+    </record>
+</odoo>
